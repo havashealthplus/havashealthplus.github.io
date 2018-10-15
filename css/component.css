@@ -16,24 +16,24 @@
    * --------------------------------------- */
 .section {
   background-attachment: fixed;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 #section1 {
   background-image: url("../images/section-one.jpg");
-  animation: zoomin 10s linear;
+  animation: zoomin 10s ease;
 }
 
 #section2 {
   background-image: url("../images/section-one.jpg");
-  animation: zoomin 10s linear;
+  animation: zoomin 10s ease;
 }
 
 #section3 {
   background-image: url("../images/section-one.jpg");
-  animation: zoomin 10s linear;
+  animation: zoomin 10s ease;
 }
 
 #section4 .content {
@@ -42,7 +42,7 @@
   left: 0;
 }
 
-@-webkit-keyframes zoomin {
+/*@-webkit-keyframes zoomin {
   0% { 
     background-size: auto 100%;
   } 
@@ -58,7 +58,7 @@
   100% {
     background-size: auto 105%;
   }
-}
+}*/
 /* Arrow
    * --------------------------------------- */
  #arrow {
