@@ -14,38 +14,50 @@
 }
 /* Sections
    * --------------------------------------- */
- .section {
-    background-attachment: fixed;
-    background-size: auto 80%;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
+.section {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
+
 #section1 {
-    background-image: url("../images/section-one.jpg");
-    background: #E8E8E8;
+  background-image: url("../images/section-one.jpg");
+  animation: background-image zoomin 10s linear;
 }
+
 #section2 {
-    background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/nike%20making%20large.jpg?as=1&t=635616687017735022);
-    background: #f2f2f2;
+  background-image: url("../images/section-one.jpg");
+  animation: background-image zoomin 10s linear;
 }
+
 #section3 {
-    background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/homepage_h_05-notext.jpg?as=1&t=635588424878366703);
-    background: #EC008C;
+  background-image: url("../images/section-one.jpg");
+  animation: background-image zoomin 10s linear;
 }
+
 #section4 .content {
-    top: 100%;
-    position: absolute;
-    left: 0;
+  top: 100%;
+  position: absolute;
+  left: 0;
 }
 
 @-webkit-keyframes zoomin {
-  0%  {   -webkit-transform: scale(1);   transform: scale(1); } 
-  100: {  -webkit-transform: scale(2);  transform: scale(2); }
+  0% { 
+    transform: scale(1.0);
+  } 
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 @keyframes zoomin {
-  0%  {   -webkit-transform: scale(1);   transform: scale(1); } 
-  100: {  -webkit-transform: scale(2);  transform: scale(2); }
+  0% { 
+    transform: scale(1.0);
+  } 
+  100% {
+    transform: scale(1.1);
+  }
 }
 /* Arrow
    * --------------------------------------- */
