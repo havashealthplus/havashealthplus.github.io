@@ -16,9 +16,15 @@
    * --------------------------------------- */
  .section {
     background-attachment: fixed;
-    background-size: auto 80%;
-    background-position: 50% 0%;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
+     -webkit-animation: 10s normal forwards zoomin ease-in;
+            animation: 10s normal forwards zoomin ease-in;
+    -webkit-transform-origin: center center 0;
+            transform-origin: center center 0;
+    -webkit-transform: scale(2);
+            transform: scale(2);
 }
 #section1 {
     background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/hbr_h_gif_final.gif?as=1&t=635549701220714646);
@@ -36,6 +42,16 @@
     top: 100%;
     position: absolute;
     left: 0;
+}
+
+@-webkit-keyframes zoomin {
+  0%  {   -webkit-transform: scale(1);   transform: scale(1); } 
+  100: {  -webkit-transform: scale(2);  transform: scale(2); }
+}
+
+@keyframes zoomin {
+  0%  {   -webkit-transform: scale(1);   transform: scale(1); } 
+  100: {  -webkit-transform: scale(2);  transform: scale(2); }
 }
 /* Arrow
    * --------------------------------------- */
