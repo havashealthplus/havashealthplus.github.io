@@ -27,7 +27,7 @@
             transform: scale(2);
 }
 #section1 {
-    background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/hbr_h_gif_final.gif?as=1&t=635549701220714646);
+    background-image: url("../images/section-one.jpg");
     background: #E8E8E8;
 }
 #section2 {
