@@ -22,12 +22,15 @@
 }
 #section1 {
     background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/hbr_h_gif_final.gif?as=1&t=635549701220714646);
+    background: #E8E8E8;
 }
 #section2 {
     background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/nike%20making%20large.jpg?as=1&t=635616687017735022);
+    background: #f2f2f2;
 }
 #section3 {
     background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/homepage_h_05-notext.jpg?as=1&t=635588424878366703);
+    background: #EC008C;
 }
 #section4 .content {
     top: 100%;
