@@ -16,15 +16,9 @@
    * --------------------------------------- */
  .section {
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    background-size: auto 80%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
-     -webkit-animation: 10s normal forwards zoomin ease-in;
-            animation: 10s normal forwards zoomin ease-in;
-    -webkit-transform-origin: center center 0;
-            transform-origin: center center 0;
-    -webkit-transform: scale(2);
-            transform: scale(2);
 }
 #section1 {
     background-image: url("../images/section-one.jpg");
