@@ -3,17 +3,15 @@
 
 /* footer */
 
-/* bigScroll */
 /* Navigaton bullets styles
  * --------------------------------------- */
- #pp-nav li .active span, .pp-slidesNav .active span {
-    background: #bbb;
+#pp-nav li .active span, .pp-slidesNav .active span {
+  background: #bbb;
 }
 #pp-nav span, .pp-slidesNav span {
     border-color: #bbb !important;
 }
-/* Sections
-   * --------------------------------------- */
+/* sections  */
 .section {
   background-attachment: fixed;
   background-size: cover;
@@ -24,19 +22,28 @@
 #section1 {
   background-image: url("../images/section-one.jpg");
   animation: zoomin 10s ease;
+  color: #ffffff;
 }
 
 #section2 {
-  background-image: url("../images/section-one.jpg");
+  background-image: url("../images/section-two.jpg");
   animation: zoomin 10s ease;
+  color: #ffffff;
 }
 
 #section3 {
-  background-image: url("../images/section-one.jpg");
+  background-image: url("../images/section-three.jpg");
   animation: zoomin 10s ease;
+  color: #ffffff;
 }
 
-#section4 .content {
+#section4 {
+  background-image: url("../images/section-four.jpg");
+  animation: zoomin 10s ease;
+  color: #ffffff;
+}
+
+#section5 .content {
   top: 100%;
   position: absolute;
   left: 0;
