@@ -17,7 +17,7 @@ $('#pagepiling').pagepiling({
 
 
         //reaching our last section? The one with our normal site?
-        if (nextIndex == 4) {
+        if (nextIndex == 5) {
             $('#arrow').hide();
 
             //fading out navigation bullets
@@ -29,7 +29,7 @@ $('#pagepiling').pagepiling({
         }
 
         //leaving our last section? The one with our normal site?
-        if (index == 4) {
+        if (index == 5) {
             $('#arrow').show();
 
             //fadding in navigation bullets
