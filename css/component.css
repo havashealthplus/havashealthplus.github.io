@@ -183,7 +183,7 @@ nav ul li a {
 }
 
 .open main {
-  transform: translateY(200px);
+  transform: translateY(170px);
 }
 
 .open nav ul {
