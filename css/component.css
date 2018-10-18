@@ -153,16 +153,19 @@
   padding: 10px;
 }
 
+nav {
+  text-align: center;
+}
+
 nav ul {
   position: fixed;
   z-index: 10;
   list-style: none;
-  margin: 0;
-  margin-top: -30px;
-  padding: 30px 50px;
-  background: #000;
-  width: 100%;
   height: 200px;
+  width: 100%;
+  margin: -30px auto 0;
+  line-height: 175px;
+  background: #000;
   transform: translateY(-200px);
   -webkit-transition: transform, 0.5s;
   transition: transform, 0.5s;
