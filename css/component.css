@@ -89,6 +89,16 @@
   background-image: url("../images/clients/amgen.jpg");
 }
 
+/* save the children */
+#stc {
+  background-image: url("../images/clients/stc.jpg");
+}
+
+/* sanofi - zantac */
+#zantac {
+  background-image: url("../images/clients/zantac.jpg");
+}
+
 
 
 
