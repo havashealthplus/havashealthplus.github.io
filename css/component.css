@@ -134,6 +134,8 @@
 }
 
 .logo {
+  height: 60px;
+  width: 60px;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
@@ -154,8 +156,6 @@
 }
 
 .logo img {
-  height: 60px;
-  width: 60px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
