@@ -48,7 +48,6 @@
 .client {
   height: 300px;
   margin-bottom: 30px;
-  padding: 20px;
   background-attachment: absolute;
   background-size: cover;
   background-position: center center;
@@ -71,8 +70,8 @@
 
 .client_logo {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 30px;
+  bottom: 40px;
 }
 
 /* all free clear */
