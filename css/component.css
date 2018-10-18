@@ -47,6 +47,7 @@
 /* brands/clients */
 .client {
   height: 300px;
+  margin-bottom: 30px;
   padding: 20px;
   background-attachment: absolute;
   background-size: cover;
