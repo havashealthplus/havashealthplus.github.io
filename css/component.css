@@ -27,6 +27,8 @@
   align-items: flex-end;
 }
 
+
+/*  */
 .eyebrow {
   font-family: 'Montserrat-Regular';
   text-transform: uppercase;
@@ -37,8 +39,20 @@
   text-transform: uppercase;
 }
 
+/* brands/clients */
+.client {
+  height: 480px;
+  padding: 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
-
+/* all free clear */
+#afc {
+  background-image: url("../images/clients/afc.jpg");
+}
 
 
 
