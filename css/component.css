@@ -1,3 +1,32 @@
+/* hero */
+.hero {
+  position: relative;
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+  padding: 120px 0 60px;
+  background-image: url("../images/section-one.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero_inner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* menu */
 
 
