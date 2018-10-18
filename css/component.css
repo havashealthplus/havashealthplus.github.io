@@ -139,35 +139,18 @@
   background: #fff;
 }
 
-.logo:after {
-    content: " ";
-    position: absolute;
-    z-index: 9;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-    transform-origin: bottom left;
-    -ms-transform: skew(-30deg, 0deg);
-    -webkit-transform: skew(-30deg, 0deg);
-    transform: skew(-30deg, 0deg);
-}
-.logo:before {
-    content: " ";
-    position: absolute;
-    z-index: 9;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-    transform-origin: bottom left;
-    -ms-transform: skew(30deg, 0deg);
-    -webkit-transform: skew(30deg, 0deg);
-    transform: skew(30deg, 0deg);
+.logo:after
+{
+  content:'';
+  background-color:inherit;
+  width:20%;
+  height:20%;
+  position:absolute;
+  right:30.1%;
+  bottom:0;
+  transform-origin:bottom left;
+  transform:skewY(-35deg);
+  z-index:-1;
 }
 
 .logo img {
