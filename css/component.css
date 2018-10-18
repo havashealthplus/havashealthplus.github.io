@@ -124,12 +124,109 @@
   background-image: url("../images/clients/transitions.jpg");
 }
 
-
-
-
-
-
 /* menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  margin-left: -30px;
+  background: salmon;
+  width: 145px;
+  padding: 30px 50px;
+  position: absolute;
+  height: 100vh;
+  transform: translateX(-215px);
+  -webkit-transition: transform, 0.5s;
+  transition: transform, 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+nav ul li {
+  margin: 15px 0px;
+}
+nav ul li a {
+  color: ivory;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.menu {
+  background: none;
+  z-index: 1;
+  margin: 0;
+  transform: translateX(0);
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: width 0.5s, height 0.5s, transform 0.5s;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.menu .hamburger {
+  width: 30px;
+  height: 5px;
+  background: ivory;
+  position: relative;
+  border-radius: 20px;
+  -webkit-transition: background, 0.5;
+  transition: background, 0.5;
+}
+.menu .hamburger:before, .menu .hamburger:after {
+  content: "";
+  background-color: ivory;
+  width: 30px;
+  height: 5px;
+  position: absolute;
+  display: block;
+  border-radius: 20px;
+  -webkit-transition: transform 0.5s, width 0.3s;
+  transition: transform 0.5s, width 0.3s;
+}
+.menu .hamburger:before {
+  top: -10px;
+}
+.menu .hamburger:after {
+  bottom: -10px;
+}
+
+main {
+  -webkit-transition: transform, 0.5s;
+  transition: transform, 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.open main {
+  transform: translateX(215px);
+}
+.open nav ul {
+  transform: translateX(0px);
+}
+.open .menu {
+  transform: translateX(165px);
+}
+.open .hamburger {
+  background: transparent;
+}
+.open .hamburger:before {
+  transform: rotate(-130deg);
+  top: 0px;
+  left: -5px;
+}
+.open .hamburger:after {
+  transform: rotate(130deg);
+  top: 0px;
+  left: -5px;
+}
+
+
+
+
+
+
+
+
 
 
 /* footer */
