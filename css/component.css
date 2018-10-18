@@ -43,18 +43,18 @@
 /* footer */
 
 /* Navigaton bullets styles
- * --------------------------------------- */
+ * --------------------------------------- 
 .pp-easing {
   -webkit-transition: all 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
   -moz-transition: all 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
   -o-transition: all 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
   transition: all 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
-  /* custom */
+  /* custom 
   -webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
   -moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
   -o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
   transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
-  /* custom */
+  /* custom 
 
 }
 
@@ -64,7 +64,7 @@
 #pp-nav span, .pp-slidesNav span {
     border-color: #bbb !important;
 }
-/* sections  */
+/* sections 
 .section {
   background-attachment: fixed;
   background-size: cover;
@@ -119,46 +119,8 @@
     background-size: auto 105%;
   }
 }*/
-/* Arrow
-   * --------------------------------------- */
- #arrow {
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    cursor: pointer;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border: 0;
-    outline: 0;
-    z-index: 100;
-    color: #BBB;
-    background: transparent;
-    -moz-transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -o-transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -webkit-transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
-    transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
-    font: 36px Heiti, 'Lucida Grande', Arial;
-    font-weight: bold;
-}
-#arrow span {
-    display: inline-block;
-    position: relative;
-    top: -18px;
-    -moz-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -o-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -webkit-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-    transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-}
-#arrow:hover {
-    background: #EC008C;
-}
-#arrow:hover span {
-    top: 0;
-    color: #FFF;
-}
 /* Intro texts
-   * --------------------------------------- */
+   * --------------------------------------- 
  .intro {
     position: absolute;
     bottom: 100px;
@@ -174,7 +136,7 @@
     color: #000;
 }
 /* Content page
-   * --------------------------------------- */
+   * --------------------------------------- 
  .header {
     padding-top: 80px;
     text-align: center;
