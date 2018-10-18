@@ -17,10 +17,17 @@
   align-items: flex-end;
 }
 
-.hero-title {
+.eyebrow {
+  font-family: 'Montserrat-Regular';
+  text-transform: uppercase;
+}
+
+.title {
   font-family: 'Montserrat-Bold';
   text-transform: uppercase;
 }
+
+
 
 
 
