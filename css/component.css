@@ -46,7 +46,7 @@
 
 /* brands/clients */
 .client {
-  height: 480px;
+  height: 300px;
   padding: 20px;
   background-attachment: absolute;
   background-size: cover;
@@ -54,17 +54,22 @@
   background-repeat: no-repeat;
 }
 
-.client_overlay {
+@media (min-width: 992px) {
+  .client {
+    height: 480px;
+  }
+}
+
+/*.client_overlay {
   position: absolute;
   z-index: 0;
   width: 100%;
   height: 100%;
   top: 0;
-}
+}*/
 
 .client_logo {
   position: absolute;
-  z-index: 1;
   left: 20px;
   bottom: 20px;
 }
@@ -77,6 +82,11 @@
 #afc_green {
   background: #00a247;
   opacity: .2;
+}
+
+/* amgen */
+#amgen {
+  background-image: url("../images/clients/amgen.jpg");
 }
 
 

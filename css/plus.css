@@ -640,7 +640,7 @@ body {
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 992px) {
   .col-medium {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
