@@ -1,0 +1,78 @@
+ __  __    __  __      __
+/\ \_\ \  /\ \_\ \    _\ \_
+\ \  __ \ \ \  __ \  /\__  _\
+ \ \_\ \_\ \ \_\ \_\ \/_/\_\ 
+  \/_/\/_/  \/_/\/_/    \/_/ 
+
+The people who made this entire site possible.
+
+
+Havas Health Plus
+-----------------
+
+Allison Ceraso
+Experience
+
+Bam Zahraie
+Product Design
+
+Tyler Hancock
+Development
+
+Natasha Mikhalchuk
+Designer
+
+Dave Gielchinsky
+PM
+
+Becca Bressler
+PM
+
+
+Havas Publishing Services
+-------------------------
+
+James Harvey
+Technology
+
+Edward Szeto 
+Technology
+
+
+Additional Thanks
+-----------------
+
+Keshni Sharma
+Dov Talpaz
+Jonathan Fuhrken
+Steve Cowles
+Gerald Flannory
+
+
+Built With
+----------
+
+GitHub
+github.com
+
+Jekyll
+jekyllrb.com
+
+Sublime Text
+sublimetext.com
+
+---
+Sketch
+Illustrator
+Photoshop
+
+
+Fonts
+-----
+
+Montserrat
+by Julieta Ulanovsky
+
+
+
+➕❤️

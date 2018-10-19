@@ -23,6 +23,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+main {
+  -webkit-transition: transform, 0.5s;
+  transition: transform, 0.5s;
+}
+
 .mx-auto {
 	margin-left: auto !important;
 	margin-right: auto !important;
@@ -50,6 +55,27 @@ b {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.link, .link:visited {
+  font-weight: inherit;
+  color: inherit;
+  opacity: 1;
+  text-decoration: none;
+  -webkit-transition: opacity .25s ease-in-out;
+          transition: opacity .25s ease-in-out;
+}
+
+.link:hover, .link:active {
+  opacity: .5;
+}
+
+.link.active {
+  opacity: .5;
+}
+
+.link span {
+	padding: 15px;
 }
 
 /* font sizes */
