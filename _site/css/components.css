@@ -1,0 +1,280 @@
+/* hero */
+.hero {
+  position: relative;
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+  padding: 120px 0 80px;
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero_overlay {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #000000;
+  opacity: .2; /* adjust the opacity to the designer's liking */
+}
+
+.hero_inner { /* aligning items in the hero */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-end;
+}
+
+/* section headers */
+.section-header {
+  padding: 50px 0 0;
+}
+
+
+
+
+
+/* partners */
+#partners {
+  background: #0d0d0d; /* gradient fallback */
+  background-image: linear-gradient(to right, #0d0d0d , #232121);
+  color: #ffffff;
+}
+
+.partner {
+  width: 75px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .partner {
+    width: 100px;
+  }
+}
+
+.partner img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* brands/clients */
+#clients {
+  padding-top: 30px;
+}
+
+.client {
+  position: relative;
+  height: 300px;
+  margin-bottom: 30px;
+  background-attachment: absolute;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .client {
+    height: 480px;
+  }
+}
+
+.client:before { /* case study overlay */
+  position: absolute;
+  content:"";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.client-logo {
+  position: absolute;
+  z-index: 10;
+  left: 30px;
+  bottom: 40px;
+}
+
+/* all free clear */
+#afc {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#afc:before {
+  background: green; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* teva */
+#teva {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#teva:before {
+  background: #000000; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* amgen */
+#amgen {
+  background-image: url("../images/clients/client-landscape.jpg");
+}
+
+#amgen:before {
+  background: #f00000; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* sanofi */
+#sanofi {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#sanofi:before {
+  background: #00d7ef; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* rftca */
+#rftca {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#rftca:before {
+  background: #000000; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* stc */
+#stc {
+  background-image: url("../images/clients/client-landscape.jpg");
+}
+
+#stc:before {
+  background: #5a03cc; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* wyeth */
+#wyeth {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#wyeth:before {
+  background: #green; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* ubc */
+#ubc {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#ubc:before {
+  background: #f00000; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* stonybrook */
+#stonybrook {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#stonybrook:before {
+  background: #000000; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* transitions */
+#transitions {
+  background-image: url("../images/clients/client-square.jpg");
+}
+
+#transitions:before {
+  background: #5a03cc; /* changes the color of the image overlay */
+  opacity: .2;
+}
+
+/* people */
+#team {
+  padding-top: 30px;
+}
+
+.person {
+  position: relative;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+.person:after { /* case study overlay */
+  position: absolute;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  text-align: center;
+  white-space: pre-wrap;
+  transition: opacity .3s ease;
+  -webkit-transition: opacity .3s ease;
+}
+
+.person:hover:after {
+  background: #000000; /* gradient fallback */
+  background-image: linear-gradient(to bottom right, #d3002c , #4c0010);
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* allison */
+#allison:after {
+  content: 'Allison Ceraso \A Cheif Experience Officer';
+}
+
+/* dennis */
+#dennis:after {
+  content: 'Dennis Urbaniak \A Chief Digital Officer';
+}
+
+/* dave */
+#dave:after {
+  content: 'Dave Gielchinsky \A VP, Director of Operations';
+}
+
+/* bam */
+#bam:after {
+  content: 'Bam Zahraie \A SVP, Product Design';
+}
+
+/* barry */
+#barry:after {
+  content: 'Barry Pearl \A SVP, Account Planning';
+}
+
+/* todd */
+#todd:after {
+  content: 'Todd Kolm \A EVP, Digital Outcomes Lab';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
