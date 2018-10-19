@@ -7,6 +7,7 @@
   margin-right: auto;
   top: 0;
   transition: top 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .logo {
@@ -127,8 +128,6 @@ footer {
 
 .hero_inner { /* aligning items in the hero */
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   align-items: flex-end;
 }
 
@@ -372,11 +371,52 @@ footer {
 }
 
 
+/* contact */
+address {
+  font-style: normal;
+}
 
+.core {
+  fill: red;
+}
 
+.ring {
+  opacity: 0;
+  stroke: red;
+  -webkit-transform-origin: center;
+  -webkit-animation: anim-pulse 2s 1s infinite;
+}
 
+.pin {
+  position: relative;
+  width: 150px;
+}
 
+@-webkit-keyframes anim-pulse{
+  0%   { 
+    opacity: 0 ;
+  -webkit-transform : scale(.5);
+    }
+  10% {
+    opacity: 1 ;
+  }
 
+  90% {
+    opacity: 0 ;
+  }
+
+  100% {
+    -webkit-transform : scale(1.25)
+  }
+}
+
+/* careers */
+#contact_careers {
+  padding-bottom: 30px;
+  background: #4c0010; /* gradient fallback */
+  background-image: linear-gradient(to bottom right, #d3002c , #4c0010);
+  color: #ffffff;
+}
 
 
 
